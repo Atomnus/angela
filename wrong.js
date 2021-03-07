@@ -1,5 +1,11 @@
-setTimeout(fade_in, 4000);
+
+setTimeout(fade_in, 6000);
 
 function fade_in() {
-  $("h1").fadeIn();
+  $("p").fadeIn();
+  
+  setTimeout(fade_out, 2000);
+}
+function fade_out() {
+  $("p").fadeOut();
 }
